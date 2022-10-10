@@ -1,6 +1,6 @@
 package pages;
 
-public class TestCase06Nida {
+public class TestCase06Sena {
 
     /*
     1. Launch browser

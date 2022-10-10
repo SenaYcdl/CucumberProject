@@ -1,6 +1,6 @@
 package pages;
 
-public class NidaPage {
+public class TestCase04Nida {
 
     /*
     1. Launch browser

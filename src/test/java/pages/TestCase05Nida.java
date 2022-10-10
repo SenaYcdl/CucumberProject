@@ -1,6 +1,6 @@
 package pages;
 
-public class SenaPage {
+public class TestCase05Nida {
     /*
     1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
