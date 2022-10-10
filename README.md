@@ -2,4 +2,4 @@
 
 
 
-<img align=beside width=230 src="https://github.com/SenaYcdl/SenaYcdl/blob/main/1ae31109ada4e770485565cac3b2bd36.gif" />
+<img align=beside width=250 src="https://github.com/SenaYcdl/SenaYcdl/blob/main/b6bc44a9eddcda9f979d56799eeaf7f7.gif" />
