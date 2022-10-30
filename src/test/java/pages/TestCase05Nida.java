@@ -22,26 +22,7 @@ public class TestCase05Nida {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(xpath = "//a[normalize-space()='Home']")
-    public WebElement home;
 
-    @FindBy(xpath = "//a[normalize-space()='Signup / Login']")
-    public WebElement login;
-
-    @FindBy(xpath = "//h2[normalize-space()='New User Signup!']")
-    public WebElement newUser;
-
-    @FindBy(xpath = "//input[@placeholder='Name']")
-    public WebElement name;
-
-    @FindBy(xpath = "//input[@data-qa='signup-email']")
-    public WebElement email;
-
-    @FindBy(xpath = "//button[normalize-space()='Signup']")
-    public WebElement signup;
-
-    @FindBy(xpath = "//p[normalize-space()='Email Address already exist!']")
-    public WebElement error;
 
 
 

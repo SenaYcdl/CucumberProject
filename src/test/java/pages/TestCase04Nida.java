@@ -48,5 +48,20 @@ public class TestCase04Nida {
 
     @FindBy(xpath = "//a[normalize-space()='Logout']")
     public WebElement logout;
+
+
+
+    @FindBy(xpath = "//h2[normalize-space()='New User Signup!']")
+    public WebElement newUser;
+
+    @FindBy(xpath = "//input[@placeholder='Name']")
+    public WebElement name;
+
+
+    @FindBy(xpath = "//button[normalize-space()='Signup']")
+    public WebElement signup;
+
+    @FindBy(xpath = "//p[normalize-space()='Email Address already exist!']")
+    public WebElement error;
 }
 
