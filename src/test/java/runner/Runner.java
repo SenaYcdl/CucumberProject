@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
         dryRun = false
 )
 
-public class TestCase04Runner {
+public class Runner {
 
 
 
