@@ -63,5 +63,46 @@ public class TestCase04Nida {
 
     @FindBy(xpath = "//p[normalize-space()='Email Address already exist!']")
     public WebElement error;
+
+
+    //sena
+    @FindBy (xpath = "(//a[@href='/test_cases'])[1]")
+    public WebElement testCasesButton;
+
+    @FindBy(xpath = "//h2")
+    public WebElement testCasesPage;
+
+    @FindBy(xpath = "//a[@href='/contact_us']")
+    public WebElement contactUs;
+
+    @FindBy(xpath = "(//*[@class='title text-center'])[2]")
+    public WebElement getInTouch;
+
+    @FindBy(xpath= "(//input[@type='text'])[1]")
+    public WebElement enterName;
+
+    @FindBy(xpath = "(//input[@type='email'])[1]")
+    public WebElement enterEmail;
+
+    @FindBy(xpath = "(//input[@type='text'])[2]")
+    public WebElement enterSubject;
+
+    @FindBy (xpath = "//*[@id='message']")
+    public WebElement messages;
+
+    @FindBy(xpath = "//input[@name='upload_file']")
+    public WebElement file;
+
+    @FindBy(xpath = "//input[@name='submit']")
+    public WebElement submitButton;
+
+    @FindBy(xpath = "//*[@class='status alert alert-success']")
+    public WebElement alertMessage;
+
+    @FindBy(xpath = "//*[@class='fa fa-angle-double-left']")
+    public WebElement homeButtuon;
+
+    @FindBy(xpath = "//h2")
+    public WebElement homaPage;
 }
 
