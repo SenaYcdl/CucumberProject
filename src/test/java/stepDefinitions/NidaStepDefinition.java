@@ -4,13 +4,14 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
+import pages.TestCase04Nida;
 import pages.TestCase05Nida;
 import utilities.ConfigReader;
 import utilities.Driver;
 
 public class NidaStepDefinition {
 
-    TestCase05Nida test=new TestCase05Nida();
+    TestCase04Nida test=new TestCase04Nida();
 
     @Given("automation {string} page")
     public void automationPage(String url) {
