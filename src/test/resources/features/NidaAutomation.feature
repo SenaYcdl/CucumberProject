@@ -1,5 +1,5 @@
 #2. Navigate to url 'http://automationexercise.com'
-#3. Verify that home page is visible successfully
+#3. Verify that home page is visible successfullyy
 #4. Click on 'Signup / Login' button
 #5. Verify 'Login to your account' is visible
 #6. Enter correct email address and password
