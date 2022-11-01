@@ -104,5 +104,61 @@ public class TestCase04Nida {
 
     @FindBy(xpath = "//h2")
     public WebElement homaPage;
+
+
+    //beyza
+    @FindBy(xpath="//*[text()=' Home']")
+    public WebElement homePageButton;
+
+    @FindBy(xpath="//*[text()=' Products']")
+    public WebElement products;
+
+    @FindBy(xpath="//*[text()='All Products']")
+    public WebElement allProducts;
+
+    @FindBy(xpath="//*[@id='search_product']")
+    public WebElement searchProduct;
+
+    @FindBy(xpath="//*[@id='submit_search']")
+    public WebElement searchProductButton;
+
+    @FindBy(xpath="//*[text()='Searched Products']")
+    public WebElement searcedProduct;
+
+    @FindBy(xpath="(//*[@class='col-sm-4'])[2]")
+    public WebElement photo1;
+
+    @FindBy(xpath="(//*[@class='col-sm-4'])[3]")
+    public WebElement photo2;
+
+    @FindBy(xpath="(//*[@class='col-sm-4'])[4]")
+    public WebElement photo3;
+
+    @FindBy(xpath="//*[@class='left-sidebar']")
+    public WebElement productList;
+
+    @FindBy(xpath="(//*[text()='View Product'])[1]")
+    public WebElement viewProduct;
+
+    @FindBy(xpath="//*[@class='product-information']")
+    public WebElement productDetailPage;
+
+    @FindBy(xpath="//*[text()='Blue Top']")
+    public WebElement productName;
+
+    @FindBy(xpath="//*[text()='Category: Women > Tops']")
+    public WebElement category;
+
+    @FindBy(xpath="//*[text()='Rs. 500']")
+    public WebElement price;
+
+    @FindBy(xpath="//*[text()='Availability:']")
+    public WebElement availability;
+
+    @FindBy(xpath="//*[text()='Condition:']")
+    public WebElement condition;
+
+    @FindBy(xpath="//*[text()='Brand:']")
+    public WebElement brand;
 }
 
